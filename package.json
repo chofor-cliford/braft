@@ -22,6 +22,7 @@
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.6.0",
+    "styled-components": "^5.3.5",
     "stripe": "^11.1.0",
     "uuidv4": "^6.2.13",
     "zustand": "^4.1.1"
