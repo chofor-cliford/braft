@@ -25,7 +25,13 @@ export default async function handler(
               "image-",
               "https://cdn.sanity.io/images/xky71glr/production/"
             )
-            .replace("-webp", ".webp");
+            .replace(
+              "-webp",
+              ".webp" || "-jpg",
+              ".jpg" || "-png",
+              ".png" || "-jpeg",
+              ".jpeg"
+            );
           return {
             price_data: {
               currency: "usd",
