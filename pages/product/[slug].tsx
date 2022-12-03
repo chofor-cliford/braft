@@ -21,7 +21,7 @@ import {
   MayAlsoLike,
   Marquee,
   MayAlsoLikeProduct,
-} from "./styles";
+} from "../../styles/styles";
 import Image from "next/image";
 import {
   AiFillStar,

@@ -30,7 +30,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { urlFor } from "../../utils/client";
 import { Product } from "../../types";
-import { Minus, Num, Plus, QtyDesc } from "../../pages/product/styles";
+import { Minus, Num, Plus, QtyDesc } from "../../styles/styles";
 
 const Cart = () => {
   const cartRef = useRef<any>();
@@ -51,7 +51,7 @@ const Cart = () => {
     if (res.statusCode === 500) return;
 
     const { data } = res;
-  
+
     toast.loading("Redirecting...");
 
     stripe.redirectToCheckout({ sessionId: data.id });
