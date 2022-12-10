@@ -9,13 +9,15 @@ export const FooterBannerContainer = styled.div`
   height: 400px;
   line-height: 1;
   color: #fff;
-  width: 100%;
+  width: fit-content;
   margin-top: 120px;
+
 `;
   
   export const BannerDesc = styled.div`
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 `;
 
 export const FooterLeft = styled.div`

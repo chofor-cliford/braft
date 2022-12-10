@@ -7,7 +7,7 @@ export const HeroBannerContainer = styled.div`
   position: relative;
   height: 500px;
   line-height: 0.9;
-  width: 100%;
+  width: 100vw;
 
   h1 {
     color: #fff;
